@@ -8,9 +8,9 @@ class baseDeDatos ():
         conn.commit()
         conn.close()
 
-#.........................................................
-#ACA CREAMOS LA BASE DE DATOS, LAS TABLAS Y LOS DATOS EN LAS TABLAS MEDIANTE CÓDIGO.
-#UNA VEZ CREADOS, SE COMENTA PORQUE SINO CADA VEZ QUE EJECUTEMOS VA A DAR ERROR PORQUE YA ESTÁN HECHAS.
+# .........................................................
+# ACA CREAMOS LA BASE DE DATOS, LAS TABLAS Y LOS DATOS EN LAS TABLAS MEDIANTE CÓDIGO.
+# UNA VEZ CREADOS, SE COMENTA PORQUE SINO CADA VEZ QUE EJECUTEMOS VA A DAR ERROR PORQUE YA ESTÁN HECHAS.
 
 # conn = sqlite3.connect("proyecto_final_leyes.db") #2)se crea la base de datos. Generar una conexion indicando por parametro el nombre de la base de datos elegido. Siempre terminar .db
 # cursor = conn.cursor()  #a) ahora se van a crear las  tablas. Lo primero es crear el cursor que elija esa bd creada.
